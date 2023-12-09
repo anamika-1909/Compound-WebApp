@@ -5,7 +5,7 @@ This Compound WebApp is a user-friendly webapp for creation, updation, deletion 
 
 Steps:
 1. Clone the repository and navigate to the root directory.
-2. Ensure you have MySQL installed and create a database named "CompoundDb" with the following credentials.
+2. Ensure you have MySQL installed and create a database named "compoundDB" with the following credentials.
    
             * Host --> localhot
             * Port --> 3306
