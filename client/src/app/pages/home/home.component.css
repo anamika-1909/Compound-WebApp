@@ -1,0 +1,29 @@
+.home {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+ul {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+  align-items: center;
+}
+
+li {
+  min-width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.pages a{
+  color: #12263a;
+
+}

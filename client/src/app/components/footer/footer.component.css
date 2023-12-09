@@ -1,0 +1,17 @@
+footer {
+  background-color: #12263a;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center !important;
+  color: #fff;
+}
+
+footer a{
+  color: #fff;
+  
+}
+
+a {
+  text-decoration: underline;
+
+}

@@ -1,0 +1,30 @@
+input,
+textarea {
+  all: unset;
+  width: 100%;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #12263a;
+  padding: 0.5rem;
+  margin-bottom: 20px;
+}
+
+label{
+  font-weight: 800;
+}
+
+button {
+  all: unset;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  border: 2px solid var(--secondary-text-color);
+  background: #06bcc1;
+}
+
+button:hover {
+  border: 2px solid var(--primary-text-color);
+  opacity: 0.9;
+}

@@ -1,0 +1,34 @@
+<div class="main-margin">
+  <div *ngIf="compounds !== undefined">
+    <div class="body-padding home">
+      <p *ngIf="compounds?.length === 0">Uh Oh! No compound found!</p>
+      <app-compound *ngFor="let compound of compounds" [compound]="compound" />
+    </div>
+
+    <ul class="pages">
+
+      <li>
+        <a
+          *ngIf="page > 1"
+          routerLink="/compounds"
+          [queryParams]="{ page: page - 1 }"
+          >{{ "<" }}</a
+        >
+      </li>
+      <li>{{ page }} of {{ totalPages }}</li>
+      <li>
+        <a
+          *ngIf="page < totalPages"
+          routerLink="/compounds"
+          [queryParams]="{ page: page + 1 }"
+          >{{ ">" }}</a
+        >
+      </li>
+      
+    </ul>
+  </div>
+
+  <div *ngIf="compounds === undefined" style="text-align: center">
+    Loading ...
+  </div>
+</div>
