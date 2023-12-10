@@ -7,7 +7,7 @@ Steps:
 1. Clone the repository and navigate to the root directory.
 2. Ensure you have MySQL installed and create a database named "compoundDB" with the following credentials.
    
-            * Host --> localhot
+            * Host --> localhost
             * Port --> 3306
             * User --> root
             * Password --> root
